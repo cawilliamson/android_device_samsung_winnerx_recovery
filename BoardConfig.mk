@@ -50,6 +50,7 @@ TARGET_NO_BOOTLOADER := true
 
 # File systems
 TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USERIMAGES_USE_F2FS := true
 
 # Kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image-dtb
